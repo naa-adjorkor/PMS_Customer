@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/Header.css'
 import hero_image from '../assets/sitting.jpg'
+import instagram from '../assets/instagram.png'
+import facebook from '../assets/facebook_icon.png'
+import twitter from '../assets/twitter_icon.png'
 
 export const Header = () => {
     return (
@@ -14,6 +17,11 @@ export const Header = () => {
             <div>
             <button className="custom__button menu-btn">Menu</button>
             <button className="custom__button book-table-btn">Book a table</button>
+            </div>
+            <div className='social_links'>
+                <a href='/' className='social_links_items'><img src={facebook} alt='fb'/></a>
+                <a href='/' className='social_links_items'><img src={instagram} alt='ig'/></a>
+                <a href='/' className='social_links_items'><img src={twitter} alt='x'/></a>
             </div>
         </div>
         <div className="hero-image section__img">
