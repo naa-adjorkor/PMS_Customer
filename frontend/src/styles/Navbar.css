@@ -2,17 +2,12 @@
     display: flex;
     width: '100%';
     align-items: center;
-    padding: 25px 10rem;
+    padding: 10px 6rem;
     color: var(--color-black);
 }
-.navbar-logo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 .navbar-logo img{
-    height: 90px;
-    width: 90px;
+    height: 35px;
+    width: 35px;
 }
 .navbar-links{
     flex: 1;

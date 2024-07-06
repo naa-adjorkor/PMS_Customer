@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import '../styles/Navbar.css'
-
+import './../styles/Navbar.css'
+import pub_logo from '../assets/pub_logo.png'
 
 export const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -10,7 +10,7 @@ export const Navbar = () => {
     return (
     <nav className='navbar'>
         <div className="navbar-logo">
-            <h1>Logo</h1>
+            <img src={pub_logo} alt='pub_logo'/>
         </div>
         <ul className='navbar-links david-libre-regular'>
             <li className=' link-items'><a href='/Home'>Home</a></li>
@@ -19,7 +19,7 @@ export const Navbar = () => {
             <li className=' link-items'><a href='/About'>About</a></li>
             <li className=' link-items'><a href='/Contact'>Contact</a></li>
         </ul>
-        <button className='navbar-signup custom__button david-libre-bold'>
+        <button className='navbar-signup david-libre-bold'>
             <a href='/Signup'>Sign Up</a>
         </button>
         
