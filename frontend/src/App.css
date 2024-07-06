@@ -1,0 +1,71 @@
+
+.david-libre-regular {
+  font-family: "David Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.david-libre-medium {
+  font-family: "David Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.david-libre-bold {
+  font-family: "David Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.text-color{
+  color: '#5C6574';
+}
+.custom__button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px 0;
+}
+@media screen and (max-width: 1150px) {
+  .hero {
+      padding: 4rem 5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .section {
+      flex-direction: column;
+      align-items: center;
+      padding: 4rem 5rem;
+  }
+  
+  .section__text {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .section__img {
+      margin-top: 2rem;
+      justify-content: center;
+  }
+  
+  .custom__button {
+      padding: 10px 15px;
+      margin-right: 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px 0;
+  }
+  .headText{
+      font-size:25px ;
+  }
+  .subText{
+      font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section {
+      padding: 4rem 1rem;
+  }
+}
