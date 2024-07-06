@@ -1,0 +1,135 @@
+/* src/styles/CustomerSection.css */
+
+.customer-section {
+    padding: 4rem 6rem;
+    background-color: var(--color-gray);
+    text-align: center;
+}
+
+.customer-section-title {
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+.customer-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.customer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 30px 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 2rem;
+    max-width: 330px;
+    height: 200px;
+    text-align: left;
+}
+
+.customer-image {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: -48px;
+    margin-bottom: 1rem;
+}
+
+.customer-info {
+    margin-top: 0.5rem;
+}
+
+.customer-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.customer-title {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.customer-text {
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1150px) {
+    .customer-section {
+        padding: 4rem 4rem;
+    }
+
+    .customer-card {
+        max-width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .customer-section {
+        padding: 4rem 2rem;
+    }
+
+    .customer-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer-card {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .customer-image {
+        width: 60px;
+        height: 60px;
+        margin-top: -60px;
+    }
+
+    .customer-name {
+        font-size: 16px;
+    }
+
+    .customer-title {
+        font-size: 12px;
+    }
+
+    .customer-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .customer-section {
+        padding: 2rem 1rem;
+    }
+
+    .customer-card {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .customer-image {
+        width: 50px;
+        height: 50px;
+        margin-top: -50px;
+    }
+
+    .customer-name {
+        font-size: 14px;
+    }
+
+    .customer-title {
+        font-size: 12px;
+    }
+
+    .customer-text {
+        font-size: 12px;
+    }
+}
