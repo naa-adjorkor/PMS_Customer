@@ -1,9 +1,10 @@
 .navbar{
     display: flex;
-    width: '100%';
+    width: 100%;
     align-items: center;
     padding: 10px 6rem;
     color: var(--color-black);
+    
 }
 .navbar-logo img{
     height: 35px;
